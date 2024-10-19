@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Travel</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./boxicons-2.1.2/css/boxicons.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body>   
+    <!-- MAIN THEME -->
+    <section class="theme__container">
+
+        <!-- HEADER -->
+        <header class="flex-box" >
+            <div class="header__left flex-box">
+                <a href="#" class="header__logo">
+                    <img src="./assets/images/Logo-transparent.png" alt="Logo">
+                </a>
+                <ul class="hide-on-tablet-mobile header__navbar flex-box">
+                    <li class="navbar__item"><a href="" class="navbar__link">HOME</a></li>
+                    <li class="navbar__item"><a href="" class="navbar__link">PACKAGES</a>
+                        <ul class="header__subnav">
+                            <li class="subnav__item"><a href="" class="subnav__link">
+                                Search 1
+                            </a>
+                            <span class="subnav__sticker-color-red">HOT</span>
+                            </li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Search 2</a></li>
+                            <li class="subnav__item --subnav__after">
+                                <a href="" class="subnav__link">Tour Package</a>
+                                <i class='bx bxs-right-arrow'></i>
+                                    <ul class="header__ex-subnav">
+                                        <li class="subnav__item"><a href="" class="subnav__link">Carousel</a>
+                                            <span class="subnav__sticker-color-blue">Best</span>
+                                        </li>
+                                        <li class="subnav__item"><a href="" class="subnav__link">Single Product</a></li>
+                                        <li class="subnav__item"><a href="" class="subnav__link">Cart</a></li>
+                                        <li class="subnav__item"><a href="" class="subnav__link">Check out</a></li>
+                                    </ul>
+                            </li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Destination</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Typology</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item"><a href="" class="navbar__link">SHOP</a>
+                        <ul class="header__subnav">
+                            <li class="subnav__item"><a href="" class="subnav__link">Archive</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Single Product</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Cart</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Check out</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item"><a href="" class="navbar__link">ABOUT US</a>
+                        <ul class="header__subnav">
+                            <li class="subnav__item"><a href="" class="subnav__link">About us</a>
+                                <span class="subnav__sticker-color-green">New</span>
+                            </li>
+                            <li class="subnav__item"><a href="" class="subnav__link">About us 2</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">About us 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item"><a href="" class="navbar__link">PAGES</a>
+                        <ul class="header__subnav">
+                            <li class="subnav__item"><a href="" class="subnav__link">Services</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Agency Tours</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Testimonials</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Prices</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Promotions</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Faq</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">Coming soon</a></li>
+                            <li class="subnav__item --subnav__after"><a href="" class="subnav__link">About us</a>
+                                <i class='bx bxs-right-arrow'></i>
+                                <ul class="header__ex-subnav">                                    
+                                    <li class="subnav__item"><a href="" class="subnav__link">About us 1</a></li>
+                                    <li class="subnav__item"><a href="" class="subnav__link">About us 2</a></li>
+                                    <li class="subnav__item"><a href="" class="subnav__link">About us 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item --subnav__after"><a href="" class="subnav__link">Contact</a>
+                                <i class='bx bxs-right-arrow'></i>
+                                <ul class="header__ex-subnav">                                    
+                                    <li class="subnav__item"><a href="" class="subnav__link">Contact 1</a></li>
+                                    <li class="subnav__item"><a href="" class="subnav__link">Contact 2</a></li>
+                                    <li class="subnav__item"><a href="" class="subnav__link">Contact 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item"><a href="" class="navbar__link">NEWS</a>
+                        <ul class="header__subnav">
+                            <li class="subnav__item"><a href="" class="subnav__link">Archive</a></li>
+                            <li class="subnav__item --subnav__after"><a href="" class="subnav__link">Single Post</a>
+                                <i class='bx bxs-right-arrow'></i>
+                                <ul class="header__ex-subnav">                                    
+                                    <li class="subnav__item"><a href="" class="subnav__link">Full width</a></li>
+                                    <li class="subnav__item"><a href="" class="subnav__link">Right Sidebar</a></li>
+                                    <li class="subnav__item"><a href="" class="subnav__link">Left Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item"><a href="" class="navbar__link">CONTACT</a>
+                        <ul class="header__subnav">
+                            <li class="subnav__item"><a href="" class="subnav__link">Contact 1</a></li>
+                            <li class="subnav__item"><a href="" class="subnav__link">COntact 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item"><a href="" class="pri-btn navbar__btn navbar__link">BOOK NOW</a></li>
+                </ul>
+            </div>
+            <div class="header__right">
+                <label for="sub-menu__check" class="header__menu-icon">
+                    <i class='bx bx-menu'></i>
+                </label>
+            </div>
+        </header>
+        <input hidden type="checkbox" id="sub-menu__check" class="sub-menu__check">
+        
+        <!-- SUB MENU -->
+        
+        <label for="sub-menu__check" class="sub-menu hide-on-tablet-mobile">
+            <label for="sub-menu__check"><i class='sub-menu__close-btn bx bx-x-circle'></i></label>
+           
+            <div class="sub-menu__places">
+                <p class="sub-title__text">BEST</p>
+
+                <h2 class="title__text --title__text-underline sub-menu__text">PACKAGES</h2>
+
+                <div class="sub-menu__place-wrap">
+                    <img src="./assets/images/berlin.jpg" alt="Berlin">
+                    <div class="sub-menu__place-info">
+                        <h5>Berlin</h5>
+                        <p><i class='bx bx-map'></i>Europe</p>
+                        <a href="" class="pri-btn sub-menu__btn --berlin-btn-color">FROM 700$</a>
+                    </div>
+                </div>
+
+                <div class="sub-menu__place-wrap">
+                    <img src="./assets/images/hong-kong.jpg" alt="Hong Kong">
+                    <div class="sub-menu__place-info">
+                        <h5>Hong Kong</h5>
+                        <p><i class='bx bx-map'></i>Asia</p>
+                        <a href="" class="pri-btn sub-menu__btn --hong-kong-btn-color">FROM 500$</a>
+                    </div>
+                </div>
+
+                <div class="sub-menu__place-wrap">
+                    <img src="./assets/images/San-francisco.jpg" alt="San Francisco">
+                    <div class="sub-menu__place-info">
+                        <h5>San Francisco</h5>
+                        <p><i class='bx bx-map'></i>United States</p>
+                        <a href="" class="pri-btn sub-menu__btn --san-fran-btn-color">FROM 400$</a>
+                    </div>
+                </div>
+
+            </div> 
+            
+            <div class="dest__item sub-menu__dest-item dest__europe">
+                <img src="./assets/images/arch.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">Europe</p>
+                    <p class="dest__item-text">3 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Berlin</a>
+                        </li>
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Amsterdam</a>
+                        </li>
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Tuscany</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sub-menu__places">
+                <p class="sub-title__text">LAST</p>
+
+                <h2 class="title__text --title__text-underline sub-menu__text ">MINUTES</h2>
+
+                <div class="sub-menu__place-wrap">
+                    <img src="./assets/images/tuscany.jpg" alt="Berlin">
+                    <div class="sub-menu__place-info">
+                        <h5>Tuscany</h5>
+                        <p><i class='bx bx-map'></i>Italia</p>
+                        <a href="" class="pri-btn sub-menu__btn --tuscany-btn-color">FROM 730$</a>
+                    </div>
+                </div>
+
+                <div class="sub-menu__place-wrap">
+                    <img src="./assets/images/amsterdam.jpg" alt="Hong Kong">
+                    <div class="sub-menu__place-info">
+                        <h5>Amsterdam</h5>
+                        <p><i class='bx bx-map'></i>Netherlands</p>
+                        <a href="" class="pri-btn sub-menu__btn --amsterdam-btn-color">FROM 1500$</a>
+                    </div>
+                </div>
+
+                <div class="sub-menu__place-wrap">
+                    <img src="./assets/images/phuket.jpg" alt="San Francisco">
+                    <div class="sub-menu__place-info">
+                        <h5>Phuket</h5>
+                        <p><i class='bx bx-map'></i>Thailandia</p>
+                        <a href="" class="pri-btn sub-menu__btn --phuket-btn-color">FROM 1200$</a>
+                    </div>
+                </div>
+
+            </div> 
+        </label>
+
+        <label for="sub-menu__check" class="sub-menu-tablet-mobile hide-on-desktop">
+            <label for="sub-menu__check"><i class='sub-menu__close-btn bx bx-x-circle'></i></label>
+            <ul class="navbar-mobile__list">
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">HOME</a>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">PACKAGES</a>
+                    <ul class="subnav-mobile__list">
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">SEARCH</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">TOUR PACKAGE</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">DESTINATION</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">TYPOLOGY</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">SHOP</a>
+                    <ul class="subnav-mobile__list">
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">ARCHIVE</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">SINGLE PRODUCT</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">CART</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">CHECK OUT</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">ABOUT US</a>
+                    <ul class="subnav-mobile__list">
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">ABOUT US 1</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">ABOUT US 2</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">ABOUT US 3</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">PAGES</a>
+                    <ul class="subnav-mobile__list">
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">SERVICES</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">AGENCY TOURS</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">TESTIMONIALS</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">PRICES</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">PROMOTIONS</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">FAQ</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">COMING SOON</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">NEWS</a>
+                    <ul class="subnav-mobile__list">
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">ARCHIVE</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">SINGLE POST</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">CONTACT</a>
+                    <ul class="subnav-mobile__list">
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">CONTACT 1</a></li>
+                        <li class="subnav-mobile__item"><a href="" class="subnav-mobile__link">CONTACT 2</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-mobile__item">
+                    <a href="" class="navbar-mobile__link">BOOK NOW</a>
+                </li>
+            </ul>
+        </label>
+        <!-- HOLIDAY -->
+        <article class="theme__holiday">
+            <h3 class="holiday__title">Search your next holiday</h3>
+            <p class="holiday__text">CHECK OUR BEST PROMOTIONS</p>
+            <div class="holiday__search flex-box">
+                <input type="text" placeholder="Choose your destination..." class="holiday__search-btn">
+                <i class='bx bx-search'></i>
+            </div>
+            <div class="holiday__choose-wrap flex-box">
+                <div class="holiday__choose-item">
+                    <a href="">
+                    <img src="./assets/images/t-relax.png" alt="">
+                    <span>RELAX</span>
+                    </a>
+                </div>
+                <div class="holiday__choose-item">
+                    <a href="">
+                    <img src="./assets/images/t-cultural.png" alt="">
+                    <span>CULTUR</span>
+                    </a>
+                </div>
+                <div class="holiday__choose-item">
+                    <a href="">
+                    <img src="./assets/images/t-sport.png" alt="">
+                    <span>SPORT</span>
+                    </a>
+                </div>
+                <div class="holiday__choose-item">
+                    <a href="">
+                    <img src="./assets/images/t-history.png" alt="">
+                    <span>HISTORY</span>
+                    </a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+        <!-- DESTINATION -->
+    <section class="dest__wrap">
+        <p class="sub-title__text">OUR PROPOSALS</p>
+        <h2 class="title__text">OUR <span class="--title__text-underline dest-text">DESTINATIONS</span></h2>
+        <article class="dest__list">
+                <!-- Europe -->    
+                <div class="dest__item-flex">            
+            <div class="dest__item abc dest__europe">
+                <img src="./assets/images/arch.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">Europe</p>
+                    <p class="dest__item-text">3 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Berlin</a>
+                        </li>
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Amsterdam</a>
+                        </li>
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Tuscany</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+                <!-- Thailandia -->
+                <div class="dest__item-flex">
+            <div class="dest__item abc dest__thailandia">
+                <img src="./assets/images/buddha.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">Thailandia</p>
+                    <p class="dest__item-text">1 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Phuket</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>  
+            </div>
+                <!-- Asia -->
+                <div class="dest__item-flex">
+            <div class="dest__item abc dest__asia">
+                <img src="./assets/images/torii-gate.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">Asia</p>
+                    <p class="dest__item-text">2 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Hong Kong</a>
+                        </li>
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Phuket</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+                <!-- Italia -->
+                <div class="dest__item-flex">
+            <div class="dest__item abc dest__italy">
+                <img src="./assets/images/pisa.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">Italy</p>
+                    <p class="dest__item-text">1 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Tuscany</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+                <!-- Netherlands -->
+                    <div class="dest__item-flex">
+            <div class="dest__item abc dest__netherlands">
+                <img src="./assets/images/london-eye.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">Netherlands</p>
+                    <p class="dest__item-text">1 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">Amsterdam</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+                <!-- United States -->
+                <div class="dest__item-flex">
+            <div class="dest__item abc dest__usa">
+                <img src="./assets/images/golden-gate.png" alt="">
+                <div class="dest__item-info">
+                    <p class="dest__item-title">United States</p>
+                    <p class="dest__item-text">1 PACKAGES</p>
+                </div>
+                <div class="dest__overlay">
+                    <h5>Packages</h5>
+                    <ul class="dest__overlay-list">
+                        <li class="dest__overlay-item">
+                            <a href="" class="dest__overlay-link">San Francisco</a>
+                        </li>
+                        <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+        </article>
+    </section>
+
+        <!-- NEXT HOLIDAY -->
+    <article class="next-holiday">
+        <div class="next-holiday__text-wrap">
+            <p class="next-holiday__text-1">Your</p>
+            <p class="next-holiday__text-2">Next <span class="--title__text-underline holiday-text">Holiday</span></p>
+        </div>
+        <div class="next-holiday__btn-wrap">
+        <a href="" class="next-holiday__btn">VIEW ALL PACKAGES</a>
+        </div>
+    </article>
+
+        <!-- TOURS -->
+    <section class="tours__container">
+        <article class="tours__beaches">
+            <div class="beaches__info">
+                <p class="sub-title__text">NORTH AMERICA</p>
+                <h2 class="title__text">The Best <span class="--title__text-underline beaches-text">Beaches</span></h2>
+                <p class="beaches__desc">
+                    Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.
+                </p>
+                <p class="beaches__desc">
+                    Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.
+                </p>
+                <div class="beaches__price">
+                    <span class="beaches__old-price">800</span>
+                    <span class="beaches__new-price">500 $</span>
+                    <span class="beaches__price-person">/ FOR PERSON</span>
+                </div>
+                <a href="" class="pri-btn beaches__btn">BOOK NOW</a>
+            </div>
+
+            <div class="beaches__wrap">
+                <div class="beaches__bullets">
+                    <a href="#beaches__img-1" class="beaches__bullets-item"></a>
+                    <a href="#beaches__img-2" class="beaches__bullets-item"></a>
+                    <a href="#beaches__img-3" class="beaches__bullets-item"></a>
+                </div>
+                <div class="beaches__img-container">
+                    <div id="beaches__img-1" class="beaches__img-main beaches__img-1"></div>
+                    <div id="beaches__img-2" class="beaches__img-main beaches__img-2"></div>
+                    <div id="beaches__img-3" class="beaches__img-main beaches__img-3"></div>
+                </div>
+                <div class="beaches__wrap-time">
+                    <div class="time__block">
+                        <span class="time__number">000</span>
+                        <span class="time__text">DAYS</span>
+                    </div>
+                    <div class="time__block">
+                        <span class="time__number">00</span>
+                        <span class="time__text">HOURS</span>
+                    </div>
+                    <div class="time__block">
+                        <span class="time__number">00</span>
+                        <span class="time__text">MINUTES</span>
+                    </div>
+                    <div class="time__block">
+                        <span class="time__number">00</span>
+                        <span class="time__text">SECONDS</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="tours__list">
+            <div class="tours__item">
+                <img src="./assets/images/icon-around.png" alt="">
+                <div class="tours__info">
+                    <h5>World Tour</h5>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                    <a href="">View more</a>
+                </div>
+            </div>
+
+            <div class="tours__item">
+                <img src="./assets/images/icon-boat.png" alt="">
+                <div class="tours__info">
+                    <h5>Cruises</h5>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                    <a href="">View more</a>
+                </div>
+            </div>
+
+            <div class="tours__item">
+                <img src="./assets/images/icon-landmark.png" alt="">
+                <div class="tours__info">
+                    <h5>Best Tours</h5>
+                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                    <a href="">View more</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+        <!-- DISCOVER -->
+    <section class="discover__container">
+        <div class="discover__item discover__img-1">
+            <p>01. LAST MINUTE</p>
+            <h4>Discover Cities</h4>
+            <a href="" class="discover__btn-1">DETAILS</a>
+        </div>
+
+        <div class="discover__item discover__img-2">
+            <p>02. PROMOTIONS</p>
+            <h4>Discover Nature</h4>
+            <a href="" class="discover__btn-2">DETAILS</a>
+        </div>
+    </section>
+
+        <!-- PROMOTION -->
+
+    <section class="promotion__container">
+        <p class="sub-title__text">PROMOTIONS</p>
+        <h2 class="title__text">OUR <span class="--title__text-underline promotion-text">PACKAGES</span></h2>
+
+        <article class="promotion__wrap">
+            <div class="promotion__item">
+                <div class="promotion__item-img --item-img-1">
+                    <div class="promotion__item-sticker-1">
+                        <img class="sticker__img" src="./assets/images/arch.png" alt="">
+                    </div>
+                </div>
+                <div class="promotion__item-info">
+                    <div class="promotion__item-head">
+                        <h5>Berlin</h5>
+                        <p><i class='bx bx-map'></i>Europe</p>
+                    </div>
+                    <div class="promotion__item-thema">
+                        <div class="promotion__item-thema-text">
+                            <p>CULTURAL</p>
+                            <P>RELAX<span style="background-color: #ffd205;">+ 1</span></P>
+                            
+                        </div>
+                        <div class="promotion__item-thema-price">
+                            <span>700 $</span>
+                        </div>
+                    </div>
+                    <div class="promotion__item-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                    </div>
+                    <a href="" class="pri-btn promotion-btn-1">DETAILS</a>
+                </div>
+            </div>
+
+            <div class="promotion__item">
+                <div class="promotion__item-img --item-img-2">
+                    <div class="promotion__item-sticker-2">
+                        <img class="sticker__img" src="./assets/images/torii-gate.png" alt="">
+                    </div>
+                </div>
+                <div class="promotion__item-info">
+                    <div class="promotion__item-head">
+                        <h5>Hong Kong</h5>
+                        <p><i class='bx bx-map'></i>Asia</p>
+                    </div>
+                    <div class="promotion__item-thema">
+                        <div class="promotion__item-thema-text">
+                            <p>HISTORY</p>
+                            <P>CULTURAL<span style="background-color: #f76570;">+ 1</span></P>
+                            
+                        </div>
+                        <div class="promotion__item-thema-price">
+                            <span class="old-price">1000</span>
+                            <span>500 $</span>
+                        </div>
+                    </div>
+                    <div class="promotion__item-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                    </div>
+                    <a href="" class="pri-btn promotion-btn-2">DETAILS</a>
+                </div>
+            </div>
+
+            <div class="promotion__item">
+                <div class="promotion__item-img --item-img-3">
+                    <div class="promotion__item-sticker-3">
+                        <img class="sticker__img" src="./assets/images/golden-gate.png" alt="">
+                    </div>
+                </div>
+                <div class="promotion__item-info">
+                    <div class="promotion__item-head">
+                        <h5>Sanfrancisco</h5>
+                        <p><i class='bx bx-map'></i>United State</p>
+                    </div>
+                    <div class="promotion__item-thema">
+                        <div class="promotion__item-thema-text">
+                            <p>SPORT</p>
+                            <P>RELAX<span style="background-color: #ba71da;">+ 1</span></P>
+                            
+                        </div>
+                        <div class="promotion__item-thema-price">
+                            <span>400 $</span>
+                        </div>
+                    </div>
+                    <div class="promotion__item-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                    </div>
+                    <a href="" class="pri-btn promotion-btn-3">DETAILS</a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+        <!-- FOOTER -->
+
+    <footer>
+        <section class="footer__container">
+            
+            <article class="footer__head">
+                <div class="footer__title">
+                    <p>KEEP IN TOUCH</p>
+                    <h5>Travel with us</h5>
+                </div>
+                <div class="footer__input">
+                    <input type="text">
+                    <a href="" class="pri-btn footer__btn">SEND</a>
+                </div>
+            </article>
+
+            <article class="footer__body">
+                <div class="footer__body-left">
+                    <div class="footer__logo">
+                        <img src="./assets/images/Logo-6.png" alt="">
+                    </div>
+                    <p class="hide-on-mobile">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                    </p>
+                    <div class="footer__social-icon">
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                        <a href=""><i class='bx bxl-youtube'></i></a>
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__body-right">
+
+                    <div class="footer__body-info">
+                        <h5>OUR AGENCY</h5>
+                        <ul class="footer__info-list">
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Services</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Insurancee</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Agency</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Tourism</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Payment</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__body-info">
+                        <h5>PARTNERS</h5>
+                        <ul class="footer__info-list">
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Booking</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">RentalCar</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">HostelWorld</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Trivago</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">TripAdvisor</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__body-info">
+                        <h5>LAST MINUTE</h5>
+                        <ul class="footer__info-list">
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">London</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">California</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Indonesia</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Europe</a>
+                            </li>
+                            <li class="footer__info-item">
+                                <i class='bx bx-chevron-right'></i>
+                                <a href="" class="footer__info-link">Oceania</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </article>
+            <div class="footer__body-bottom">
+                <p>THE BEST WORDPRESS TRAVEL THEME</p>
+                <p>COPYRIGHT NICDARK THEMES 2018</p>
+            </div>
+
+        </section>
+    </footer>
+</body>
+</html>
+
